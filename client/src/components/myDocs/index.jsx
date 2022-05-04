@@ -106,7 +106,7 @@ function MyDocs() {
                 <a href={item.ipfsURL} target="_blank">
                   <button className={styles.details__btn}>View File</button>
                   </a>
-                  <p>&nbsp;</p>
+                  <p />
               </div>
               {/* <button className="drop-file-preview__item__del" onClick={fileRemove(item)}>x</button> */}
             </div>
