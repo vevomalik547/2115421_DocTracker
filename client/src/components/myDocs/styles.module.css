@@ -3,6 +3,7 @@
 }
 
 .navbar {
+  display: flex;
   align-items: center;
   margin-top: 0px;
   display: flex;
@@ -11,6 +12,7 @@
   color: white;
   border-bottom-left-radius: 20%;
   border-bottom-right-radius: 20%;
+  text-decoration: none;
   padding-left: 5%;
   padding-right: 5%;
   height: 100px;
@@ -24,7 +26,7 @@
 
 .logout_btn {
   height: 40px;
-  width: 30%;
+  width: 125px;
   justify-content: center;
   align-items: center;
   margin-left: 5px;
@@ -45,7 +47,6 @@
   transform: translateX(20px);
   transition: 0.6s ease-in-out;
 }
-
 
 .header_btn {
   display: flex;
@@ -76,6 +77,7 @@
   color: white;
   text-decoration: none;
 }
+
 
 .btn,
 .btn2 {

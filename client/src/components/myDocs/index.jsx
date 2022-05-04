@@ -46,33 +46,34 @@ function MyDocs() {
   }, [publicKey])
 
     return (
-    <div className={styles.main_container}>
-      <nav className={styles.navbar}>
-        <Link to="/">
-          <img src="/Niftron_logo.png" width="20%" alt="Logo" />
-        </Link>
-
+      <div className={styles.main_container}>
+			<nav className={styles.navbar}>
+			<Link to="/">
+				<img src="/Niftron_logo.png" width="20%" alt="Logo" />
+				</Link>
+				
         <Link to="/myDocs">
-          <button type="button" className={styles.header_btn} style={{ color: "lightblue" }}>
-            My Docs
-          </button>
-        </Link>
+						<button type="button" className={styles.header_btn} style={{color: "lightblue"}}>
+							My Docs
+						</button>
+					</Link>
 
-        <button className={styles.header_btn} >
-          <a href="/#features">Features</a>
-        </button>
+				<button className={styles.header_btn} >
+				<a href="/#features">Features</a>
+				</button>				
+				
+				<Link to="/Pricing">
+					<button className={styles.header_btn}>
+				Pricings
+				</button>
+				</Link>
 
-        <Link to="/Pricing">
-          <button className={styles.header_btn}>
-            Pricings
-          </button>
-        </Link>
-
-        <button className={styles.logout_btn} onClick={handleLogout}>
-          Logout
-        </button>
-
-      </nav>
+				<Link to="/">
+				<button className={styles.logout_btn} onClick={handleLogout} >
+					Logout
+				</button>
+				</Link>
+			</nav>
       <section className={styles.main}>
         <br />
 
