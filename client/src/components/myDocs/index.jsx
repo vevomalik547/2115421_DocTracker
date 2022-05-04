@@ -45,7 +45,7 @@ function MyDocs() {
     loadFiles(publicKey)
   }, [publicKey])
 
-  return (
+    return (
     <div className={styles.main_container}>
       <nav className={styles.navbar}>
         <Link to="/">
@@ -95,12 +95,18 @@ function MyDocs() {
           fileList.length > 0 &&
           fileList.map((item, index) => (
             <div key={index} className="drop-file-preview__item">
-              <div className="drop-file-preview__item__info">
-                <h3>{item.name}</h3>
-                <button className="drop-file-preview__item__del" >DLT File</button>
+              <div className="drop-file-preview__item__details">
+                <h2>File Name: {item.name}</h2>
+                {/*>>>>USE IF NEEDED TO DELETE DOCUMENTS FROM DATABASE>>>> <button className="drop-file-preview__item__del" >DLT File</button>*/}
                 {/* Link to retrieve the uploaded files in IPFS */}
-                IPFSHASH: <a href={item.ipfsURL} target="_blank"> {item.ipfsHash}</a>
-                TXNHASH: <a href={item.txnURL} target="_blank"> {item.txnHash}</a>
+                <p><b>Local Ref ID:</b> {item._id}</p>
+                <p><b>IPFSHASH:</b> <a href={item.ipfsURL} target="_blank"> {item.ipfsHash}</a></p>
+                <p><b>TXNHASH:</b> <a href={item.txnURL} target="_blank"> {item.txnHash}</a></p>
+                <br />
+                <a href={item.ipfsURL} target="_blank">
+                  <button className={styles.details__btn}>View File</button>
+                  </a>
+                  <p>&nbsp;</p>
               </div>
               {/* <button className="drop-file-preview__item__del" onClick={fileRemove(item)}>x</button> */}
             </div>

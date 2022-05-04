@@ -82,6 +82,21 @@
     flex-direction: column;
 }
 
+.drop-file-preview__item__details {
+    width: 80%;
+    display: flex;
+    text-align: left;
+    align-items: left;
+    flex-direction: column;
+    border-radius: 24px;
+    -webkit-box-shadow: -1px 2px 10px 11px rgba(0,0,0,0.22); 
+    box-shadow: -1px 2px 10px 11px rgba(0,0,0,0.22);
+    background-color: rgba(255, 255, 255, 0.452);
+    padding-left: 25px;
+}
+
+
+
 .drop-file-preview__item__del {
     background-color: var(--box-bg);
     width: 40px;
@@ -102,6 +117,23 @@
 
 .drop-file-preview__item:hover .drop-file-preview__item__del {
     opacity: 1;
+}
+
+.drop-file-preview__item__view {
+    background-color: black;
+    width: auto;
+    height: auto;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    opacity: 0;
 }
 
 .uploadbtn{
