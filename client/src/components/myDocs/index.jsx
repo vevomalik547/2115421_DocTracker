@@ -52,6 +52,12 @@ function MyDocs() {
 				<img src="/Niftron_logo.png" width="20%" alt="Logo" />
 				</Link>
 				
+        <Link to="/">
+						<button type="button" className={styles.header_btn}>
+							Home
+						</button>
+					</Link>
+
         <Link to="/myDocs">
 						<button type="button" className={styles.header_btn} style={{color: "lightblue"}}>
 							My Docs
