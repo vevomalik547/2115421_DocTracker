@@ -61,10 +61,10 @@ const Pricing = () => {
       <PricingSlot buttonText="Pay Now" title="Prime" priceText="$4/month">
         <PricingDetail> 5 GB Storage Data </PricingDetail>
         <PricingDetail> Allowed File formats: .pdf, .png, .jpg, .css & .zip</PricingDetail>
-        <PricingDetail> Allows the owner to share filesand the receiver to request permission of other files </PricingDetail>
+        <PricingDetail>  </PricingDetail>
         <PricingDetail>
           {" "}
-          Our entire library of Episodes, Documentaries and Movies
+          
         </PricingDetail>
         <PricingDetail> </PricingDetail>
       </PricingSlot>
@@ -74,7 +74,7 @@ const Pricing = () => {
         <PricingDetail> Allowed File formats: .pdf, .png, .css, .doc, .pkg, .iso, .bin, .svg, .xml & .zip, </PricingDetail>
         <PricingDetail>
           {" "}
-          Allows the owner to share filesand the receiver to request permission of other files
+          Choice of Encryption provided for each file seperately.
         </PricingDetail>
       </PricingSlot>
     </PricingTable>
