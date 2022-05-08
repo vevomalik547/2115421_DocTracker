@@ -52,7 +52,7 @@ const Pricing = () => {
 <h1>Ready to start with DocTracker?</h1>
 <h5>Choose the package that suits you from below</h5>
 <PricingTable highlightColor="#1976D2">
-      <PricingSlot buttonText="TRY IT FREE" title="FREE" priceText="$0/month">
+      <PricingSlot buttonText="Current Package" title="FREE" priceText="$0/month">
         <PricingDetail> 1 GB Free Storage Data </PricingDetail>
         <PricingDetail> Allowed File formats: .pdf, .png & .css</PricingDetail>
         <PricingDetail> Allows the owner to share files to another user</PricingDetail>
@@ -82,28 +82,34 @@ const Pricing = () => {
 <br />
 <br />
 <br />
-<br />
-<br />
 
 </section>
 <section className={styles.footer}>
       <br />
       <section className={styles.footer_info}>
-        <section className={styles.footer_info_left}></section>
+        <section className={styles.footer_info_left}>
+            
+        </section>
 
         <section className={styles.footer_info_center}>
         <a href='/'><img src="./Niftron_logo.png" height={75} width={200} alt="Logo" /></a>
-        <div className={styles.icons} align="center">
-        <br />
-        <a href='/'><img src="./instaicon.png" height={35} width={35} alt="insta" /></a>
-        <a href='https://github.com/Niftron'><img src="./giticon.png" height={35} width={35} alt="git" /></a>
-        <a href='/'><img src="./linkedinicon.png" height={35} width={35} alt="linkedIn" /></a>
+        <section className='icons' align="center">
+        <table align="center">
+        <tr>
+            <td>
+              <a href='/'><img src="./instaicon.png" height={35} width={35} alt="insta" /></a></td>
+              <td>
+              <a href='https://github.com/Niftron'><img src="./giticon.png" height={35} width={35} alt="git" /></a></td>
+            <td>
+              <a href='/'><img src="./linkedinicon.png" height={35} width={35} alt="linkedIn" /></a></td>
+              <td></td>
+        </tr>
+        </table>
+         </section>
 
-         </div>
-         <section className={styles.footer_info_terms} align="center">
-         <br />
-         <br />
-            
+          <section className={styles.footer_info_terms}>
+            <br />
+            <br />
         <table align="center">
         <tr>
             <td><a href='/'>Info</a></td>
@@ -115,12 +121,14 @@ const Pricing = () => {
         </tr>
         </table>
             
-         <br />
-         <br />
-        </section>
+          </section>
           <section className={styles.footer_info_email}>
             <br />
-           © 2022 Niftron
+            <table align="center">
+        <tr>
+            <td>Powered by Niftron</td>
+        </tr>
+        </table>
           </section>
         </section>
         <section className={styles.footer_info_right}>
@@ -133,6 +141,5 @@ const Pricing = () => {
 </div>
 	);
 }
-
 
 export default Pricing;
