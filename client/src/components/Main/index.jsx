@@ -59,7 +59,7 @@ const Main = () => {
       <p className={styles.home_item_top}> Create, Manage & Boost Your Business 
       <br />
 	  <br />
-	  <p className={styles.content}>DocFlow is blockchain-based document management software that digitizes the entire paperwork cycle and uses advanced smart contract mechanisms to guarantee uncompromised data security and authenticity. A lightbulb moment for your paperwork.</p>
+	  <p className={styles.content}>Doc-Tracker is blockchain-based document management software that digitizes the entire paperwork cycle and uses advanced smart contract mechanisms to guarantee uncompromised data security and authenticity. A lightbulb moment for your paperwork.</p>
       <p className={styles.content}>&nbsp;</p>
       <Link to="/myDocs" className={styles.home_item_top}>
 		  <button className={styles.btn}>Upload Files Now</button>
