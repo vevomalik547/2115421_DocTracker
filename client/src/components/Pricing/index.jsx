@@ -93,19 +93,18 @@ const Pricing = () => {
 
         <section className={styles.footer_info_center}>
         <a href='/'><img src="./Niftron_logo.png" height={75} width={200} alt="Logo" /></a>
-        <br />
-        <br />
         <div className={styles.icons} align="center">
         <br />
-        <a href='/'><img src="./instaicon.png" height={50} width={50} alt="insta" /></a>
-        <a href='https://github.com/Niftron'><img src="./giticon.png" height={50} width={50} alt="git" /></a>
-        <a href='/'><img src="./linkedinicon.png" height={50} width={50} alt="linkedIn" /></a>
+        <a href='/'><img src="./instaicon.png" height={35} width={35} alt="insta" /></a>
+        <a href='https://github.com/Niftron'><img src="./giticon.png" height={35} width={35} alt="git" /></a>
+        <a href='/'><img src="./linkedinicon.png" height={35} width={35} alt="linkedIn" /></a>
 
          </div>
-         <section className={styles.footer_info_terms}>
-            <br />
+         <section className={styles.footer_info_terms} align="center">
+         <br />
+         <br />
             
-        <table>
+        <table align="center">
         <tr>
             <td><a href='/'>Info</a></td>
             <td>-</td>
@@ -116,7 +115,9 @@ const Pricing = () => {
         </tr>
         </table>
             
-          </section>
+         <br />
+         <br />
+        </section>
           <section className={styles.footer_info_email}>
             <br />
            © 2022 Niftron

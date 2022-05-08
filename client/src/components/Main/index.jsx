@@ -161,18 +161,15 @@ const Main = () => {
 
         <section className={styles.footer_info_center}>
         <a href='/'><img src="./Niftron_logo.png" height={75} width={200} alt="Logo" /></a>
-        <br />
-        <br />
         <section className='icons' align="center">
-        <br />
-        <table>
+        <table align="center">
         <tr>
             <td>
-              <a href='/'><img src="./instaicon.png" height={50} width={50} alt="insta" /></a></td>
+              <a href='/'><img src="./instaicon.png" height={35} width={35} alt="insta" /></a></td>
               <td>
-              <a href='https://github.com/Niftron'><img src="./giticon.png" height={50} width={50} alt="git" /></a></td>
+              <a href='https://github.com/Niftron'><img src="./giticon.png" height={35} width={35} alt="git" /></a></td>
             <td>
-              <a href='/'><img src="./linkedinicon.png" height={50} width={50} alt="linkedIn" /></a></td>
+              <a href='/'><img src="./linkedinicon.png" height={35} width={35} alt="linkedIn" /></a></td>
               <td></td>
         </tr>
         </table>
@@ -181,7 +178,7 @@ const Main = () => {
           <section className={styles.footer_info_terms}>
             <br />
             
-        <table>
+        <table align="center">
         <tr>
             <td><a href='/'>Info</a></td>
             <td>-</td>
@@ -195,9 +192,9 @@ const Main = () => {
           </section>
           <section className={styles.footer_info_email}>
             <br />
-            <table>
+            <table align="center">
         <tr>
-            <td>Powered by <a className={styles.footer_info_email} href='/'><img src="./shortcutIcon.png" alt="logo" /></a></td>
+            <td>Powered by Niftron</td>
         </tr>
         </table>
           </section>
