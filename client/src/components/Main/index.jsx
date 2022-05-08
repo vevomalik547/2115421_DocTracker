@@ -61,9 +61,9 @@ const Main = () => {
 	  <br />
 	  <p className={styles.content}>DocFlow is blockchain-based document management software that digitizes the entire paperwork cycle and uses advanced smart contract mechanisms to guarantee uncompromised data security and authenticity. A lightbulb moment for your paperwork.</p>
       <p className={styles.content}>&nbsp;</p>
-      <a href="/" className={styles.home_item_top}>
-		  <button className={styles.btn}>Get Started</button>
-		  </a>
+      <Link to="/myDocs" className={styles.home_item_top}>
+		  <button className={styles.btn}>Upload Files Now</button>
+		  </Link>
       </p>
     </section>
 <br />
@@ -177,7 +177,7 @@ const Main = () => {
 
           <section className={styles.footer_info_terms}>
             <br />
-            
+            <br />
         <table align="center">
         <tr>
             <td><a href='/'>Info</a></td>
