@@ -85,8 +85,9 @@ function MyDocs() {
 
         <div className={styles.box}>
           <h2 className={styles.header}>
-            Drop your files below to add:
+            Drop your file below to add:
           </h2>
+          <h6>Note: You can upload only one file at a time</h6>
 
           <div className={styles.dropBox}>
             <DropFileInput
@@ -97,7 +98,7 @@ function MyDocs() {
 
         <br />
         <br />
-        <h2>Your Files:</h2>
+        <h2>My Files:</h2>
         {
           fileList.length > 0 &&
           fileList.map((item, index) => (
