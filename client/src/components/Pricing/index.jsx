@@ -55,7 +55,7 @@ const Pricing = () => {
       <PricingSlot buttonText="Current Package" title="FREE" priceText="$0/month">
         <PricingDetail> 1 GB Free Storage Data </PricingDetail>
         <PricingDetail> Allowed File formats: .pdf, .png & .css</PricingDetail>
-        <PricingDetail> Allows the owner to share files to another user</PricingDetail>
+        <PricingDetail> </PricingDetail>
       </PricingSlot>
 
       <PricingSlot buttonText="Pay Now" title="Prime" priceText="$4/month">
